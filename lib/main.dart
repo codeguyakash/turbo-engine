@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-void main2() {
+void main() {
   runApp(const MyApp());
 }
 
@@ -23,7 +23,7 @@ class MyHomePage extends StatelessWidget {
   final List<Map<String, dynamic>> sam_campaigns = [
     {
       "id": "23",
-      "campaign_name": "Sample Campaign 1",
+      "campaign_name": "Prowtech Video ",
       "start_date": "2024-12-24",
       "end_date": "2025-01-10",
       "is_full_screen": true,
@@ -32,6 +32,20 @@ class MyHomePage extends StatelessWidget {
       "end_time": "22:23:00",
       "video_url":
           "https://prowtechapi.zenoheal.com/uploads/Network/1732865592_f3298baa95075d3e2531.mp4",
+      "duration": "15",
+      "order": "1",
+      "created_at": "2024-11-29"
+    },
+    {
+      "id": "23",
+      "campaign_name": "Youtube Video",
+      "start_date": "2024-12-24",
+      "end_date": "2025-01-10",
+      "is_full_screen": true,
+      "is_active": true,
+      "start_time": "10:59:00",
+      "end_time": "22:23:00",
+      "video_url": "https://youtu.be/w6uX9jamcwQ?si=sGm4OuAkfp-O88P9",
       "duration": "15",
       "order": "1",
       "created_at": "2024-11-29"

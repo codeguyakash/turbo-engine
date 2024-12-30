@@ -8,11 +8,11 @@
 <!-- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> -->
 
     <application
-        android:label="TV App"
+        android:label="android_tv_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
-        android:enableOnBackInvokedCallback="true"
         >
+        <!-- android:enableOnBackInvokedCallback="true" -->
         <!-- android:banners="@drawable/banner" -->
         <activity
             android:name=".MainActivity"
