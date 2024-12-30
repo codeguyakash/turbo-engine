@@ -22,8 +22,8 @@ class MyHomePage extends StatelessWidget {
 
   final List<Map<String, dynamic>> sam_campaigns = [
     {
-      "id": "23",
-      "campaign_name": "Prowtech Video ",
+      "id": "1",
+      "campaign_name": "Prowtech Video 1",
       "start_date": "2024-12-24",
       "end_date": "2025-01-10",
       "is_full_screen": true,
@@ -31,24 +31,67 @@ class MyHomePage extends StatelessWidget {
       "start_time": "10:59:00",
       "end_time": "22:23:00",
       "video_url":
-          "https://prowtechapi.zenoheal.com/uploads/Network/1732865592_f3298baa95075d3e2531.mp4",
+          "https://prowtechapi.zenoheal.com/uploads/Network/1732627668_ea79e3f5477c2af0bd99.mp4",
       "duration": "15",
+      "thumbnail_url":
+          "https://prowtechapi.zenoheal.com/uploads/thumbnails/thumb_1732627668_ea79e3f5477c2af0bd99.jpg",
       "order": "1",
-      "created_at": "2024-11-29"
+      "created_at": "2024-11-29",
+      "is_internet_source": true,
     },
     {
-      "id": "23",
-      "campaign_name": "Youtube Video",
+      "id": "2",
+      "campaign_name": "Prowtech Video 2",
       "start_date": "2024-12-24",
       "end_date": "2025-01-10",
       "is_full_screen": true,
       "is_active": true,
       "start_time": "10:59:00",
       "end_time": "22:23:00",
-      "video_url": "https://youtu.be/w6uX9jamcwQ?si=sGm4OuAkfp-O88P9",
+      "video_url":
+          "https://prowtechapi.zenoheal.com/uploads/Network/1733117767_b6bab8bd861b5378e946.mp4",
+      "duration": "15",
+      "thumbnail_url":
+          "https://prowtechapi.zenoheal.com/uploads/thumbnails/thumb_1733117767_b6bab8bd861b5378e946.jpg",
+      "order": "1",
+      "created_at": "2024-11-29",
+      "is_internet_source": true,
+    },
+    {
+      "id": "3",
+      "campaign_name": "Pexel Video 1",
+      "start_date": "2024-12-24",
+      "end_date": "2025-01-10",
+      "is_full_screen": true,
+      "is_active": true,
+      "start_time": "10:59:00",
+      "end_time": "22:23:00",
+      "video_url":
+          "https://videos.pexels.com/video-files/3173312/3173312-uhd_2560_1440_30fps.mp4",
+      "thumbnail_url":
+          "https://images.pexels.com/videos/3173312/free-video-3173312.jpg?auto=compress&cs=tinysrgb&w=600",
       "duration": "15",
       "order": "1",
-      "created_at": "2024-11-29"
+      "created_at": "2024-11-29",
+      "is_internet_source": true,
+    },
+    {
+      "id": "4",
+      "campaign_name": "Pexel Video 2",
+      "start_date": "2024-12-24",
+      "end_date": "2025-01-10",
+      "is_full_screen": true,
+      "is_active": true,
+      "start_time": "10:59:00",
+      "end_time": "22:23:00",
+      "video_url":
+          "https://videos.pexels.com/video-files/3239847/3239847-hd_1920_1080_25fps.mp4",
+      "thumbnail_url":
+          "https://images.pexels.com/videos/3239847/free-video-3239847.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "duration": "15",
+      "order": "1",
+      "created_at": "2024-11-29",
+      "is_internet_source": true,
     },
   ];
 
@@ -73,6 +116,7 @@ class MyHomePage extends StatelessWidget {
                   builder: (context) => DetailScreen(
                     videoUrl: campaign['video_url'],
                     campaignName: campaign['campaign_name'],
+                    isLocalSource: !campaign['is_internet_source'],
                   ),
                 ),
               );
@@ -82,9 +126,35 @@ class MyHomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Expanded(
-                    child: Image.network(
-                      'https://images.pexels.com/photos/2575775/pexels-photo-2575775.jpeg?cs=srgb&dl=pexels-bongvideos-production-1310991-2575775.jpg&fm=jpg',
-                      fit: BoxFit.cover,
+                    child: Stack(
+                      children: [
+                        ClipRRect(
+                          borderRadius: const BorderRadius.only(
+                            topLeft: Radius.circular(8),
+                            topRight: Radius.circular(8),
+                          ),
+                          child: campaign['is_internet_source']
+                              ? Image.network(
+                                  campaign['thumbnail_url'],
+                                  fit: BoxFit.cover,
+                                  width: double.infinity,
+                                  height: double.infinity,
+                                )
+                              : Image.asset(
+                                  campaign['thumbnail_url'],
+                                  fit: BoxFit.cover,
+                                  width: double.infinity,
+                                  height: double.infinity,
+                                ),
+                        ),
+                        Center(
+                          child: Icon(
+                            Icons.play_circle_outline,
+                            color: Colors.white,
+                            size: 50,
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                   Padding(
@@ -107,9 +177,14 @@ class MyHomePage extends StatelessWidget {
 
 class DetailScreen extends StatefulWidget {
   final String videoUrl;
+  final String campaignName;
+  final bool isLocalSource;
 
   const DetailScreen(
-      {super.key, required this.videoUrl, required campaignName});
+      {super.key,
+      required this.videoUrl,
+      required this.campaignName,
+      required this.isLocalSource});
 
   @override
   _DetailScreenState createState() => _DetailScreenState();
@@ -163,7 +238,7 @@ class _DetailScreenState extends State<DetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detail Screen'),
+        title: const Text('Video Screen'),
       ),
       body: _hasError
           ? Center(
