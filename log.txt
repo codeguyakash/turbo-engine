@@ -1,0 +1,1047 @@
+Launching lib\main.dart on W2 in debug mode...
+Running Gradle task 'assembleDebug'...                          
+Running Gradle task 'assembleDebug'...                            170.4s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           5.2s
+I/flutter ( 3221): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(60)] Using the Impeller rendering backend (Vulkan).
+Syncing files to device W2...                                    2,008ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on W2 is available at: http://127.0.0.1:50614/e-hku3kHAlw=/
+The Flutter DevTools debugger and profiler on W2 is available at: http://127.0.0.1:9103?uri=http://127.0.0.1:50614/e-hku3kHAlw=/
+I/flutter ( 3221): Fetching supported codecs...
+I/.android_tv_ap( 3221): NativeAlloc concurrent copying GC freed 2738(337KB) AllocSpace objects, 0(0B) LOS objects, 24% free, 4670KB/6227KB, paused 211us total 107.154ms
+I/ExoPlayerImpl( 3221): Init a585279 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30]
+W/.android_tv_ap( 3221): Accessing hidden method Landroid/media/AudioTrack;->getLatency()I (greylist, reflection, allowed)
+I/Choreographer( 3221): Skipped 35 frames!  The application may be doing too much work on its main thread.
+I/TetheringManager( 3221): registerTetheringEventCallback:com.example.android_tv_app
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gsst
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gstd
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gssd
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gspu
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gspm
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gshh
+I/.android_tv_ap( 3221): Background concurrent copying GC freed 2110(114KB) AllocSpace objects, 3(228KB) LOS objects, 24% free, 6412KB/8549KB, paused 121us total 113.815ms
+W/AudioCapabilities( 3221): Unsupported mime audio/dtshd
+W/AudioCapabilities( 3221): Unsupported mime audio/ffmpeg
+W/VideoCapabilities( 3221): Unsupported mime video/x-vnd.on2.vp6a
+W/VideoCapabilities( 3221): Unsupported mime video/x-vnd.on2.vp6f
+W/VideoCapabilities( 3221): Unsupported mime video/x-motion-jpeg
+W/VideoCapabilities( 3221): Unrecognized profile/level 0/3 for video/mpeg2
+I/VideoCapabilities( 3221): Unsupported profile 2 for video/mpeg2
+I/VideoCapabilities( 3221): Unsupported profile 3 for video/mpeg2
+I/VideoCapabilities( 3221): Unsupported profile 4 for video/mpeg2
+I/VideoCapabilities( 3221): Unsupported profile 5 for video/mpeg2
+I/VideoCapabilities( 3221): Unsupported profile 2 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 4 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 8 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 16 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 32 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 64 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 128 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 256 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 512 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 1024 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 2048 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 4096 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 8192 for video/mp4v-es
+I/VideoCapabilities( 3221): Unsupported profile 16384 for video/mp4v-es
+W/VideoCapabilities( 3221): Unsupported mime video/rm10
+W/VideoCapabilities( 3221): Unsupported mime video/rm20
+W/VideoCapabilities( 3221): Unsupported mime video/rm30
+W/VideoCapabilities( 3221): Unsupported mime video/rm40
+W/VideoCapabilities( 3221): Unsupported mime video/vc1
+W/VideoCapabilities( 3221): Unrecognized level 16 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 32 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 64 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 128 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 256 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 512 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 1024 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 2048 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 4096 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 8192 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 16384 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unrecognized level 32768 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 3221): Unsupported mime video/wmv3
+W/VideoCapabilities( 3221): Unsupported mime video/wmv1
+W/VideoCapabilities( 3221): Unsupported mime video/wmv2
+W/VideoCapabilities( 3221): Unsupported mime video/wvc1
+I/OMXClient( 3221): IOmx service obtained
+D/SurfaceUtils( 3221): connecting to surface 0xede35878, reason connectToSurface
+I/MediaCodec( 3221): [OMX.amlogic.avc.decoder.awesome2] setting surface generation to 3298305
+D/SurfaceUtils( 3221): disconnecting from surface 0xede35878, reason connectToSurface(reconnect)
+D/SurfaceUtils( 3221): connecting to surface 0xede35878, reason connectToSurface(reconnect)
+I/AmAVUtils( 3221): AmAVUtils, GITINFO : d32b3814175617bb24dd0965983e5642c803ab3a(drm.autobuild  Mon Oct 18 12:59:01 CST 2021)
+I/AmAVUtils( 3221): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc 
+V/MediaVendorExt( 3221): AVUtils::getComponentRole
+I/MediaVendorExt( 3221): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc 
+I/AmAVUtils( 3221): AmAVUtils::isAudioExtendFormat input = video/avc
+I/AmAVUtils( 3221): AmAVUtils::isExtendFormat input = video/avc
+I/ACodec  ( 3221): codec does not support config priority (err -1010)
+D/SurfaceUtils( 3221): set up nativeWindow 0xede35878 for 1280x720, color 0x11, rotation 0, usage 0xc02b00
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 19 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 18 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 17 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 16 failed: -1010
+E/ACodec  ( 3221): Failed to allocate buffers after transitioning to IDLE state (error 0xfffffc0e)
+E/ACodec  ( 3221): signalError(omxError 0x80001001, internalError -1010)
+E/MediaCodec( 3221): Codec reported err 0xfffffc0e, actionCode 0, while in state 5
+D/SurfaceUtils( 3221): disconnecting from surface 0xede35878, reason disconnectFromSurface
+I/ACodec  ( 3221): ignoring message as already freed component: AMessage(what = 'omxL', target = 1) = {
+I/ACodec  ( 3221):   int32_t generation = 1
+I/ACodec  ( 3221):   RefBase *messages = 0xbb1fa810
+I/ACodec  ( 3221): }
+W/MediaCodecRenderer( 3221): Failed to initialize decoder: OMX.amlogic.avc.decoder.awesome2
+W/MediaCodecRenderer( 3221):   android.media.MediaCodec$CodecException: start failed
+W/MediaCodecRenderer( 3221):       at android.media.MediaCodec.native_start(Native Method)
+W/MediaCodecRenderer( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+W/MediaCodecRenderer( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+W/MediaCodecRenderer( 3221):       at android.os.Looper.loop(Looper.java:223)
+W/MediaCodecRenderer( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 3221): Video codec error
+E/MediaCodecVideoRenderer( 3221):   androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/MediaCodecVideoRenderer( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/MediaCodecVideoRenderer( 3221):       at android.os.Looper.loop(Looper.java:223)
+E/MediaCodecVideoRenderer( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 3221):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/MediaCodecVideoRenderer( 3221):       at android.media.MediaCodec.native_start(Native Method)
+E/MediaCodecVideoRenderer( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/MediaCodecVideoRenderer( 3221):       ... 11 more
+E/ExoPlayerImplInternal( 3221): Playback error
+E/ExoPlayerImplInternal( 3221):   androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:640)
+E/ExoPlayerImplInternal( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ExoPlayerImplInternal( 3221):       at android.os.Looper.loop(Looper.java:223)
+E/ExoPlayerImplInternal( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/ExoPlayerImplInternal( 3221):   Caused by: androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/ExoPlayerImplInternal( 3221):       ... 3 more
+E/ExoPlayerImplInternal( 3221):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/ExoPlayerImplInternal( 3221):       at android.media.MediaCodec.native_start(Native Method)
+E/ExoPlayerImplInternal( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/ExoPlayerImplInternal( 3221):       ... 11 more
+I/flutter ( 3221): Error initializing video: PlatformException(VideoError, Video player had error androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES, null, null)
+I/ExoPlayerImpl( 3221): Release a585279 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30] [media3.common, media3.exoplayer, media3.decoder, media3.datasource, media3.extractor]
+I/flutter ( 3221): Fetching supported codecs...
+I/ExoPlayerImpl( 3221): Init e48e293 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30]
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gsst
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gstd
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gssd
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gspu
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gspm
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gshh
+I/OMXClient( 3221): IOmx service obtained
+D/SurfaceUtils( 3221): connecting to surface 0xede1c578, reason connectToSurface
+I/MediaCodec( 3221): [OMX.amlogic.avc.decoder.awesome2] setting surface generation to 3298306
+D/SurfaceUtils( 3221): disconnecting from surface 0xede1c578, reason connectToSurface(reconnect)
+D/SurfaceUtils( 3221): connecting to surface 0xede1c578, reason connectToSurface(reconnect)
+I/AmAVUtils( 3221): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc 
+V/MediaVendorExt( 3221): AVUtils::getComponentRole
+I/MediaVendorExt( 3221): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc 
+I/AmAVUtils( 3221): AmAVUtils::isAudioExtendFormat input = video/avc
+I/AmAVUtils( 3221): AmAVUtils::isExtendFormat input = video/avc
+I/ACodec  ( 3221): codec does not support config priority (err -1010)
+D/SurfaceUtils( 3221): set up nativeWindow 0xede1c578 for 1280x720, color 0x11, rotation 0, usage 0xc02b00
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 19 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 18 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 17 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 16 failed: -1010
+E/ACodec  ( 3221): Failed to allocate buffers after transitioning to IDLE state (error 0xfffffc0e)
+E/ACodec  ( 3221): signalError(omxError 0x80001001, internalError -1010)
+E/MediaCodec( 3221): Codec reported err 0xfffffc0e, actionCode 0, while in state 5
+D/SurfaceUtils( 3221): disconnecting from surface 0xede1c578, reason disconnectFromSurface
+W/AHierarchicalStateMachine( 3221): Warning message AMessage(what = 'omxI') = {
+W/AHierarchicalStateMachine( 3221):   int32_t type = 0
+W/AHierarchicalStateMachine( 3221):   int32_t event = 0
+W/AHierarchicalStateMachine( 3221):   int32_t data1 = 0
+W/AHierarchicalStateMachine( 3221):   int32_t data2 = 1
+W/AHierarchicalStateMachine( 3221): } unhandled in root state.
+W/MediaCodecRenderer( 3221): Failed to initialize decoder: OMX.amlogic.avc.decoder.awesome2
+W/MediaCodecRenderer( 3221):   android.media.MediaCodec$CodecException: start failed
+W/MediaCodecRenderer( 3221):       at android.media.MediaCodec.native_start(Native Method)
+W/MediaCodecRenderer( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+W/MediaCodecRenderer( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+W/MediaCodecRenderer( 3221):       at android.os.Looper.loop(Looper.java:223)
+W/MediaCodecRenderer( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 3221): Video codec error
+E/MediaCodecVideoRenderer( 3221):   androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 23.976023, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/MediaCodecVideoRenderer( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/MediaCodecVideoRenderer( 3221):       at android.os.Looper.loop(Looper.java:223)
+E/MediaCodecVideoRenderer( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 3221):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/MediaCodecVideoRenderer( 3221):       at android.media.MediaCodec.native_start(Native Method)
+E/MediaCodecVideoRenderer( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/MediaCodecVideoRenderer( 3221):       ... 11 more
+E/ExoPlayerImplInternal( 3221): Playback error
+E/ExoPlayerImplInternal( 3221):   androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 23.976023, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:640)
+E/ExoPlayerImplInternal( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ExoPlayerImplInternal( 3221):       at android.os.Looper.loop(Looper.java:223)
+E/ExoPlayerImplInternal( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/ExoPlayerImplInternal( 3221):   Caused by: androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 23.976023, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/ExoPlayerImplInternal( 3221):       ... 3 more
+E/ExoPlayerImplInternal( 3221):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/ExoPlayerImplInternal( 3221):       at android.media.MediaCodec.native_start(Native Method)
+E/ExoPlayerImplInternal( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/ExoPlayerImplInternal( 3221):       ... 11 more
+I/flutter ( 3221): Error initializing video: PlatformException(VideoError, Video player had error androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 23.976023, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES, null, null)
+I/ExoPlayerImpl( 3221): Release e48e293 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30] [media3.common, media3.exoplayer, media3.decoder, media3.datasource, media3.extractor]
+I/flutter ( 3221): Fetching supported codecs...
+I/ExoPlayerImpl( 3221): Init db306f5 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30]
+I/.android_tv_ap( 3221): Background concurrent copying GC freed 2500(324KB) AllocSpace objects, 17(2124KB) LOS objects, 24% free, 6109KB/8145KB, paused 113us total 110.982ms
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gsst
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gstd
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gssd
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gspu
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gspm
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gshh
+I/OMXClient( 3221): IOmx service obtained
+D/SurfaceUtils( 3221): connecting to surface 0xede1f7d8, reason connectToSurface
+I/MediaCodec( 3221): [OMX.amlogic.avc.decoder.awesome2] setting surface generation to 3298307
+D/SurfaceUtils( 3221): disconnecting from surface 0xede1f7d8, reason connectToSurface(reconnect)
+D/SurfaceUtils( 3221): connecting to surface 0xede1f7d8, reason connectToSurface(reconnect)
+I/AmAVUtils( 3221): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc 
+V/MediaVendorExt( 3221): AVUtils::getComponentRole
+I/MediaVendorExt( 3221): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc 
+I/AmAVUtils( 3221): AmAVUtils::isAudioExtendFormat input = video/avc
+I/AmAVUtils( 3221): AmAVUtils::isExtendFormat input = video/avc
+I/ACodec  ( 3221): codec does not support config priority (err -1010)
+D/SurfaceUtils( 3221): set up nativeWindow 0xede1f7d8 for 1280x534, color 0x11, rotation 0, usage 0xc02b00
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 19 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 18 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 17 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 16 failed: -1010
+E/ACodec  ( 3221): Failed to allocate buffers after transitioning to IDLE state (error 0xfffffc0e)
+E/ACodec  ( 3221): signalError(omxError 0x80001001, internalError -1010)
+E/MediaCodec( 3221): Codec reported err 0xfffffc0e, actionCode 0, while in state 5
+D/SurfaceUtils( 3221): disconnecting from surface 0xede1f7d8, reason disconnectFromSurface
+W/MediaCodecRenderer( 3221): Failed to initialize decoder: OMX.amlogic.avc.decoder.awesome2
+W/MediaCodecRenderer( 3221):   android.media.MediaCodec$CodecException: start failed
+W/MediaCodecRenderer( 3221):       at android.media.MediaCodec.native_start(Native Method)
+W/MediaCodecRenderer( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+W/MediaCodecRenderer( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+W/MediaCodecRenderer( 3221):       at android.os.Looper.loop(Looper.java:223)
+W/MediaCodecRenderer( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+I/ACodec  ( 3221): ignoring message as already freed component: AMessage(what = 'omxL', target = 7) = {
+I/ACodec  ( 3221):   int32_t generation = 1
+I/ACodec  ( 3221):   RefBase *messages = 0xbb1e41f0
+I/ACodec  ( 3221): }
+E/MediaCodecVideoRenderer( 3221): Video codec error
+E/MediaCodecVideoRenderer( 3221):   androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 534, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/MediaCodecVideoRenderer( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/MediaCodecVideoRenderer( 3221):       at android.os.Looper.loop(Looper.java:223)
+E/MediaCodecVideoRenderer( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 3221):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/MediaCodecVideoRenderer( 3221):       at android.media.MediaCodec.native_start(Native Method)
+E/MediaCodecVideoRenderer( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/MediaCodecVideoRenderer( 3221):       ... 11 more
+E/ExoPlayerImplInternal( 3221): Playback error
+E/ExoPlayerImplInternal( 3221):   androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 534, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:640)
+E/ExoPlayerImplInternal( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ExoPlayerImplInternal( 3221):       at android.os.Looper.loop(Looper.java:223)
+E/ExoPlayerImplInternal( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/ExoPlayerImplInternal( 3221):   Caused by: androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 534, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/ExoPlayerImplInternal( 3221):       ... 3 more
+E/ExoPlayerImplInternal( 3221):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/ExoPlayerImplInternal( 3221):       at android.media.MediaCodec.native_start(Native Method)
+E/ExoPlayerImplInternal( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/ExoPlayerImplInternal( 3221):       ... 11 more
+I/flutter ( 3221): Error initializing video: PlatformException(VideoError, Video player had error androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 534, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES, null, null)
+I/.android_tv_ap( 3221): Background concurrent copying GC freed 3077(476KB) AllocSpace objects, 12(412KB) LOS objects, 24% free, 7632KB/10176KB, paused 115us total 274.790ms
+I/ExoPlayerImpl( 3221): Release db306f5 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30] [media3.common, media3.exoplayer, media3.decoder, media3.datasource, media3.extractor]
+I/flutter ( 3221): Fetching supported codecs...
+I/ExoPlayerImpl( 3221): Init 265b0c7 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30]
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gsst
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gstd
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gssd
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gspu
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gspm
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gshh
+I/OMXClient( 3221): IOmx service obtained
+D/SurfaceUtils( 3221): connecting to surface 0xede2c158, reason connectToSurface
+I/MediaCodec( 3221): [OMX.amlogic.avc.decoder.awesome2] setting surface generation to 3298308
+D/SurfaceUtils( 3221): disconnecting from surface 0xede2c158, reason connectToSurface(reconnect)
+D/SurfaceUtils( 3221): connecting to surface 0xede2c158, reason connectToSurface(reconnect)
+I/AmAVUtils( 3221): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc 
+V/MediaVendorExt( 3221): AVUtils::getComponentRole
+I/MediaVendorExt( 3221): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc 
+I/AmAVUtils( 3221): AmAVUtils::isAudioExtendFormat input = video/avc
+I/AmAVUtils( 3221): AmAVUtils::isExtendFormat input = video/avc
+I/ACodec  ( 3221): codec does not support config priority (err -1010)
+I/.android_tv_ap( 3221): Background concurrent copying GC freed 1107(164KB) AllocSpace objects, 13(1996KB) LOS objects, 24% free, 8504KB/11MB, paused 108us total 164.777ms
+D/SurfaceUtils( 3221): set up nativeWindow 0xede2c158 for 1280x546, color 0x11, rotation 0, usage 0xc02b00
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 19 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 18 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 17 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 16 failed: -1010
+E/ACodec  ( 3221): Failed to allocate buffers after transitioning to IDLE state (error 0xfffffc0e)
+E/ACodec  ( 3221): signalError(omxError 0x80001001, internalError -1010)
+E/MediaCodec( 3221): Codec reported err 0xfffffc0e, actionCode 0, while in state 5
+D/SurfaceUtils( 3221): disconnecting from surface 0xede2c158, reason disconnectFromSurface
+W/MediaCodecRenderer( 3221): Failed to initialize decoder: OMX.amlogic.avc.decoder.awesome2
+W/MediaCodecRenderer( 3221):   android.media.MediaCodec$CodecException: start failed
+W/MediaCodecRenderer( 3221):       at android.media.MediaCodec.native_start(Native Method)
+W/MediaCodecRenderer( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+W/MediaCodecRenderer( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+W/MediaCodecRenderer( 3221):       at android.os.Looper.loop(Looper.java:223)
+W/MediaCodecRenderer( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+I/ACodec  ( 3221): ignoring message as already freed component: AMessage(what = 'omxL', target = 10) = {
+I/ACodec  ( 3221):   int32_t generation = 1
+I/ACodec  ( 3221):   RefBase *messages = 0xafc4efe0
+I/ACodec  ( 3221): }
+E/MediaCodecVideoRenderer( 3221): Video codec error
+E/MediaCodecVideoRenderer( 3221):   androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 546, 24.000044, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/MediaCodecVideoRenderer( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/MediaCodecVideoRenderer( 3221):       at android.os.Looper.loop(Looper.java:223)
+E/MediaCodecVideoRenderer( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 3221):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/MediaCodecVideoRenderer( 3221):       at android.media.MediaCodec.native_start(Native Method)
+E/MediaCodecVideoRenderer( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/MediaCodecVideoRenderer( 3221):       ... 11 more
+E/ExoPlayerImplInternal( 3221): Playback error
+E/ExoPlayerImplInternal( 3221):   androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 546, 24.000044, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:640)
+E/ExoPlayerImplInternal( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ExoPlayerImplInternal( 3221):       at android.os.Looper.loop(Looper.java:223)
+E/ExoPlayerImplInternal( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/ExoPlayerImplInternal( 3221):   Caused by: androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 546, 24.000044, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/ExoPlayerImplInternal( 3221):       ... 3 more
+E/ExoPlayerImplInternal( 3221):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/ExoPlayerImplInternal( 3221):       at android.media.MediaCodec.native_start(Native Method)
+E/ExoPlayerImplInternal( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/ExoPlayerImplInternal( 3221):       ... 11 more
+I/flutter ( 3221): Error initializing video: PlatformException(VideoError, Video player had error androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(1, null, null, video/avc, avc1.64001F, -1, null, [1280, 546, 24.000044, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES, null, null)
+I/ExoPlayerImpl( 3221): Release 265b0c7 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30] [media3.common, media3.exoplayer, media3.decoder, media3.datasource, media3.extractor]
+I/flutter ( 3221): Fetching supported codecs...
+I/ExoPlayerImpl( 3221): Init 85d9089 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30]
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gsst
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gstd
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gssd
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gspu
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gspm
+D/MetadataUtil( 3221): Skipped unknown metadata entry: gshh
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+I/OMXClient( 3221): IOmx service obtained
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+D/SurfaceUtils( 3221): connecting to surface 0xede19318, reason connectToSurface
+I/MediaCodec( 3221): [OMX.amlogic.avc.decoder.awesome2] setting surface generation to 3298309
+D/SurfaceUtils( 3221): disconnecting from surface 0xede19318, reason connectToSurface(reconnect)
+D/SurfaceUtils( 3221): connecting to surface 0xede19318, reason connectToSurface(reconnect)
+I/AmAVUtils( 3221): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc 
+V/MediaVendorExt( 3221): AVUtils::getComponentRole
+I/MediaVendorExt( 3221): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc 
+I/AmAVUtils( 3221): AmAVUtils::isAudioExtendFormat input = video/avc
+I/AmAVUtils( 3221): AmAVUtils::isExtendFormat input = video/avc
+I/ACodec  ( 3221): codec does not support config priority (err -1010)
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+D/SurfaceUtils( 3221): set up nativeWindow 0xede19318 for 1280x720, color 0x11, rotation 0, usage 0xc02b00
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 19 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 18 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 17 failed: -1010
+W/ACodec  ( 3221): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 16 failed: -1010
+E/ACodec  ( 3221): Failed to allocate buffers after transitioning to IDLE state (error 0xfffffc0e)
+E/ACodec  ( 3221): signalError(omxError 0x80001001, internalError -1010)
+E/MediaCodec( 3221): Codec reported err 0xfffffc0e, actionCode 0, while in state 5
+D/SurfaceUtils( 3221): disconnecting from surface 0xede19318, reason disconnectFromSurface
+I/ACodec  ( 3221): ignoring message as already freed component: AMessage(what = 'omxL', target = 13) = {
+I/ACodec  ( 3221):   int32_t generation = 1
+I/ACodec  ( 3221):   RefBase *messages = 0xbb1fb170
+I/ACodec  ( 3221): }
+W/MediaCodecRenderer( 3221): Failed to initialize decoder: OMX.amlogic.avc.decoder.awesome2
+W/MediaCodecRenderer( 3221):   android.media.MediaCodec$CodecException: start failed
+W/MediaCodecRenderer( 3221):       at android.media.MediaCodec.native_start(Native Method)
+W/MediaCodecRenderer( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+W/MediaCodecRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+W/MediaCodecRenderer( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+W/MediaCodecRenderer( 3221):       at android.os.Looper.loop(Looper.java:223)
+W/MediaCodecRenderer( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 3221): Video codec error
+E/MediaCodecVideoRenderer( 3221):   androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/MediaCodecVideoRenderer( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/MediaCodecVideoRenderer( 3221):       at android.os.Looper.loop(Looper.java:223)
+E/MediaCodecVideoRenderer( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 3221):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/MediaCodecVideoRenderer( 3221):       at android.media.MediaCodec.native_start(Native Method)
+E/MediaCodecVideoRenderer( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/MediaCodecVideoRenderer( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/MediaCodecVideoRenderer( 3221):       ... 11 more
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/ExoPlayerImplInternal( 3221): Playback error
+E/ExoPlayerImplInternal( 3221):   androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:640)
+E/ExoPlayerImplInternal( 3221):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ExoPlayerImplInternal( 3221):       at android.os.Looper.loop(Looper.java:223)
+E/ExoPlayerImplInternal( 3221):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/ExoPlayerImplInternal( 3221):   Caused by: androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/ExoPlayerImplInternal( 3221):       ... 3 more
+E/ExoPlayerImplInternal( 3221):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/ExoPlayerImplInternal( 3221):       at android.media.MediaCodec.native_start(Native Method)
+E/ExoPlayerImplInternal( 3221):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/ExoPlayerImplInternal( 3221):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/ExoPlayerImplInternal( 3221):       ... 11 more
+I/flutter ( 3221): Error initializing video: PlatformException(VideoError, Video player had error androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES, null, null)
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/fence_waiter_vk.cc(165)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence waiter encountered an unexpected error. Tearing down the waiter thread.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+I/ExoPlayerImpl( 3221): Release 85d9089 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30] [media3.common, media3.exoplayer, media3.decoder, media3.datasource, media3.extractor]
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+
+Performing hot restart...                                       
+Restarted application in 4,136ms.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(55)] Break on 'ImpellerValidationBreak' to inspect point of failure: Fence wait failed: ErrorDeviceLost
+E/flutter ( 3221): [ERROR:flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc(324)] Break on 'ImpellerValidationBreak' to inspect point of failure: Could not wait for fence.
+E/flutter ( 3221): [ERROR:flutter/shell/gpu/gpu_surface_vulkan_impeller.cc(58)] No surface available.
+
+Performing hot restart...                                       
+Application finished.
+Terminate batch job (Y/N)? 

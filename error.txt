@@ -1,0 +1,357 @@
+flutter run
+Launching lib\main.dart on W2 in debug mode...
+Running Gradle task 'assembleDebug'...                             54.1s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           6.3s
+I/flutter ( 4274): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(60)] Using the Impeller rendering backend (Vulkan).
+D/ProfileInstaller( 4274): Installing profile for com.example.android_tv_app
+Syncing files to device W2...                                    1,613ms
+
+Flutter run key commands.
+r Hot reload.
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on W2 is available at: http://127.0.0.1:62211/9l7Gq4OzawI=/
+The Flutter DevTools debugger and profiler on W2 is available at:
+http://127.0.0.1:9103?uri=http://127.0.0.1:62211/9l7Gq4OzawI=/
+I/flutter ( 4274): Fetching supported codecs...
+I/ExoPlayerImpl( 4274): Init a585279 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30]
+W/.android_tv_ap( 4274): Accessing hidden method Landroid/media/AudioTrack;->getLatency()I (greylist, reflection, allowed)
+I/TetheringManager( 4274): registerTetheringEventCallback:com.example.android_tv_app
+E/ExoPlayerImplInternal( 4274): Playback error
+E/ExoPlayerImplInternal( 4274):   androidx.media3.exoplayer.ExoPlaybackException: Source error
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleIoException(ExoPlayerImplInternal.java:736)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:706)
+E/ExoPlayerImplInternal( 4274):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ExoPlayerImplInternal( 4274):       at android.os.Looper.loop(Looper.java:223)
+E/ExoPlayerImplInternal( 4274):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/ExoPlayerImplInternal( 4274):   Caused by: androidx.media3.exoplayer.source.UnrecognizedInputFormatException: None of the
+available extractors (FlvExtractor, FlacExtractor, WavExtractor, FragmentedMp4Extractor, Mp4Extractor, AmrExtractor, PsExtractor, OggExtractor, TsExtractor, MatroskaExtractor, AdtsExtractor, Ac3Extractor, Ac4Extractor, Mp3Extractor, AviExtractor, JpegExtractor, PngExtractor, WebpExtractor, BmpExtractor, HeifExtractor, AvifExtractor) could read the stream.{contentIsMalformed=false, dataType=1}
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.source.BundledExtractorsAdapter.init(BundledExtractorsAdapter.java:108)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.source.ProgressiveMediaPeriod$ExtractingLoadable.load(ProgressiveMediaPeriod.java:1060)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.upstream.Loader$LoadTask.run(Loader.java:421)
+E/ExoPlayerImplInternal( 4274):       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+E/ExoPlayerImplInternal( 4274):       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+E/ExoPlayerImplInternal( 4274):       at java.lang.Thread.run(Thread.java:923)
+I/flutter ( 4274): Error initializing video: PlatformException(VideoError, Video player had error androidx.media3.exoplayer.ExoPlaybackException: Source error, null, null)
+I/ExoPlayerImpl( 4274): Release a585279 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30] [media3.common, media3.exoplayer, media3.decoder, media3.datasource, media3.extractor]
+I/flutter ( 4274): Fetching supported codecs...
+I/ExoPlayerImpl( 4274): Init ac372d0 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30]
+D/MetadataUtil( 4274): Skipped unknown metadata entry: gsst
+D/MetadataUtil( 4274): Skipped unknown metadata entry: gstd
+D/MetadataUtil( 4274): Skipped unknown metadata entry: gssd
+D/MetadataUtil( 4274): Skipped unknown metadata entry: gspu
+D/MetadataUtil( 4274): Skipped unknown metadata entry: gspm
+D/MetadataUtil( 4274): Skipped unknown metadata entry: gshh
+I/.android_tv_ap( 4274): Background concurrent copying GC freed 2353(157KB) AllocSpace objects, 6(248KB) LOS objects, 24% free, 5872KB/7829KB, paused 236us total 132.700ms
+W/AudioCapabilities( 4274): Unsupported mime audio/dtshd
+W/AudioCapabilities( 4274): Unsupported mime audio/ffmpeg
+W/VideoCapabilities( 4274): Unsupported mime video/x-vnd.on2.vp6a
+W/VideoCapabilities( 4274): Unsupported mime video/x-vnd.on2.vp6f
+W/VideoCapabilities( 4274): Unsupported mime video/x-motion-jpeg
+W/VideoCapabilities( 4274): Unrecognized profile/level 0/3 for video/mpeg2
+I/VideoCapabilities( 4274): Unsupported profile 2 for video/mpeg2
+I/VideoCapabilities( 4274): Unsupported profile 3 for video/mpeg2
+I/VideoCapabilities( 4274): Unsupported profile 4 for video/mpeg2
+I/VideoCapabilities( 4274): Unsupported profile 5 for video/mpeg2
+I/VideoCapabilities( 4274): Unsupported profile 2 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 4 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 8 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 16 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 32 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 64 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 128 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 256 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 512 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 1024 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 2048 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 4096 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 8192 for video/mp4v-es
+I/VideoCapabilities( 4274): Unsupported profile 16384 for video/mp4v-es
+W/VideoCapabilities( 4274): Unsupported mime video/rm10
+W/VideoCapabilities( 4274): Unsupported mime video/rm20
+W/VideoCapabilities( 4274): Unsupported mime video/rm30
+W/VideoCapabilities( 4274): Unsupported mime video/rm40
+W/VideoCapabilities( 4274): Unsupported mime video/vc1
+W/VideoCapabilities( 4274): Unrecognized level 16 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 32 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 64 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 128 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 256 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 512 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 1024 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 2048 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 4096 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 8192 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 16384 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unrecognized level 32768 for video/x-vnd.on2.vp8
+W/VideoCapabilities( 4274): Unsupported mime video/wmv3
+W/VideoCapabilities( 4274): Unsupported mime video/wmv1
+W/VideoCapabilities( 4274): Unsupported mime video/wmv2
+W/VideoCapabilities( 4274): Unsupported mime video/wvc1
+I/.android_tv_ap( 4274): Background concurrent copying GC freed 6414(271KB) AllocSpace objects, 2(176KB) LOS objects, 24% free, 7472KB/9962KB, paused 107us total 113.269ms
+I/OMXClient( 4274): IOmx service obtained
+D/SurfaceUtils( 4274): connecting to surface 0xed02a828, reason connectToSurface
+I/MediaCodec( 4274): [OMX.amlogic.avc.decoder.awesome2] setting surface generation to 4376577
+D/SurfaceUtils( 4274): disconnecting from surface 0xed02a828, reason connectToSurface(reconnect)
+D/SurfaceUtils( 4274): connecting to surface 0xed02a828, reason connectToSurface(reconnect)
+I/AmAVUtils( 4274): AmAVUtils, GITINFO : d32b3814175617bb24dd0965983e5642c803ab3a(drm.autobuild  Mon Oct 18 12:59:01 CST 2021)
+I/AmAVUtils( 4274): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc
+V/MediaVendorExt( 4274): AVUtils::getComponentRole
+I/MediaVendorExt( 4274): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc
+I/AmAVUtils( 4274): AmAVUtils::isAudioExtendFormat input = video/avc
+I/AmAVUtils( 4274): AmAVUtils::isExtendFormat input = video/avc
+I/ACodec  ( 4274): codec does not support config priority (err -1010)
+D/SurfaceUtils( 4274): set up nativeWindow 0xed02a828 for 1280x720, color 0x11, rotation 0, usage 0xc02b00
+W/ACodec  ( 4274): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 19 failed: -1010
+W/ACodec  ( 4274): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 18 failed: -1010
+W/ACodec  ( 4274): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 17 failed: -1010
+W/ACodec  ( 4274): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 16 failed: -1010
+E/ACodec  ( 4274): Failed to allocate buffers after transitioning to IDLE state (error 0xfffffc0e)
+E/ACodec  ( 4274): signalError(omxError 0x80001001, internalError -1010)
+E/MediaCodec( 4274): Codec reported err 0xfffffc0e, actionCode 0, while in state 5
+D/SurfaceUtils( 4274): disconnecting from surface 0xed02a828, reason disconnectFromSurface
+W/MediaCodecRenderer( 4274): Failed to initialize decoder: OMX.amlogic.avc.decoder.awesome2
+W/MediaCodecRenderer( 4274):   android.media.MediaCodec$CodecException: start failed
+W/MediaCodecRenderer( 4274):       at android.media.MediaCodec.native_start(Native Method)
+W/MediaCodecRenderer( 4274):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+W/MediaCodecRenderer( 4274):       at android.os.Handler.dispatchMessage(Handler.java:102)
+W/MediaCodecRenderer( 4274):       at android.os.Looper.loop(Looper.java:223)
+W/MediaCodecRenderer( 4274):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 4274): Video codec error
+E/MediaCodecVideoRenderer( 4274):   androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException:
+Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/MediaCodecVideoRenderer( 4274):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/MediaCodecVideoRenderer( 4274):       at android.os.Looper.loop(Looper.java:223)
+E/MediaCodecVideoRenderer( 4274):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 4274):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/MediaCodecVideoRenderer( 4274):       at android.media.MediaCodec.native_start(Native Method)
+E/MediaCodecVideoRenderer( 4274):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/MediaCodecVideoRenderer( 4274):       ... 11 more
+E/ExoPlayerImplInternal( 4274): Playback error
+E/ExoPlayerImplInternal( 4274):   androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:640)
+E/ExoPlayerImplInternal( 4274):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ExoPlayerImplInternal( 4274):       at android.os.Looper.loop(Looper.java:223)
+E/ExoPlayerImplInternal( 4274):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/ExoPlayerImplInternal( 4274):   Caused by: androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/ExoPlayerImplInternal( 4274):       ... 3 more
+E/ExoPlayerImplInternal( 4274):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/ExoPlayerImplInternal( 4274):       at android.media.MediaCodec.native_start(Native Method)
+E/ExoPlayerImplInternal( 4274):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/ExoPlayerImplInternal( 4274):       ... 11 more
+W/AHierarchicalStateMachine( 4274): Warning message AMessage(what = 'omxI') = {
+W/AHierarchicalStateMachine( 4274):   int32_t type = 0
+W/AHierarchicalStateMachine( 4274):   int32_t event = 0
+W/AHierarchicalStateMachine( 4274):   int32_t data1 = 0
+W/AHierarchicalStateMachine( 4274):   int32_t data2 = 1
+W/AHierarchicalStateMachine( 4274): } unhandled in root state.
+I/flutter ( 4274): Error initializing video: PlatformException(VideoError, Video player had error androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(2, null, null, video/avc, avc1.64001F, -1, null, [1280, 720, 24.0, ColorInfo(Unset color space, Unset color range, Unset color transfer, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES, null, null)
+I/ExoPlayerImpl( 4274): Release ac372d0 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30] [media3.common, media3.exoplayer, media3.decoder, media3.datasource, media3.extractor]
+I/flutter ( 4274): Fetching supported codecs...
+I/ExoPlayerImpl( 4274): Init 51c62e2 [AndroidXMedia3/1.4.1] [p281, W2, Google, 30]
+I/OMXClient( 4274): IOmx service obtained
+D/SurfaceUtils( 4274): connecting to surface 0xed024368, reason connectToSurface
+I/MediaCodec( 4274): [OMX.amlogic.avc.decoder.awesome2] setting surface generation to 4376578
+D/SurfaceUtils( 4274): disconnecting from surface 0xed024368, reason connectToSurface(reconnect)
+D/SurfaceUtils( 4274): connecting to surface 0xed024368, reason connectToSurface(reconnect)
+I/AmAVUtils( 4274): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc
+V/MediaVendorExt( 4274): AVUtils::getComponentRole
+I/MediaVendorExt( 4274): AmAVUtils::getComponentRole isEncoder :0 mime:video/avc
+I/AmAVUtils( 4274): AmAVUtils::isAudioExtendFormat input = video/avc
+I/AmAVUtils( 4274): AmAVUtils::isExtendFormat input = video/avc
+I/ACodec  ( 4274): codec does not support config priority (err -1010)
+D/SurfaceUtils( 4274): set up nativeWindow 0xed024368 for 1920x1080, color 0x11, rotation 0, usage 0xc02b00
+W/ACodec  ( 4274): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 19 failed: -1010
+W/ACodec  ( 4274): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 18 failed: -1010
+W/ACodec  ( 4274): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 17 failed: -1010
+W/ACodec  ( 4274): [OMX.amlogic.avc.decoder.awesome2] setting nBufferCountActual to 16 failed: -1010
+E/ACodec  ( 4274): Failed to allocate buffers after transitioning to IDLE state (error 0xfffffc0e)
+E/ACodec  ( 4274): signalError(omxError 0x80001001, internalError -1010)
+E/MediaCodec( 4274): Codec reported err 0xfffffc0e, actionCode 0, while in state 5
+D/SurfaceUtils( 4274): disconnecting from surface 0xed024368, reason disconnectFromSurface
+W/AHierarchicalStateMachine( 4274): Warning message AMessage(what = 'omxI') = {
+W/AHierarchicalStateMachine( 4274):   int32_t type = 0
+W/AHierarchicalStateMachine( 4274):   int32_t event = 0
+W/AHierarchicalStateMachine( 4274):   int32_t data1 = 0
+W/AHierarchicalStateMachine( 4274):   int32_t data2 = 1
+W/AHierarchicalStateMachine( 4274): } unhandled in root state.
+W/MediaCodecRenderer( 4274): Failed to initialize decoder: OMX.amlogic.avc.decoder.awesome2
+W/MediaCodecRenderer( 4274):   android.media.MediaCodec$CodecException: start failed
+W/MediaCodecRenderer( 4274):       at android.media.MediaCodec.native_start(Native Method)
+W/MediaCodecRenderer( 4274):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+W/MediaCodecRenderer( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+W/MediaCodecRenderer( 4274):       at android.os.Handler.dispatchMessage(Handler.java:102)
+W/MediaCodecRenderer( 4274):       at android.os.Looper.loop(Looper.java:223)
+W/MediaCodecRenderer( 4274):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 4274): Video codec error
+E/MediaCodecVideoRenderer( 4274):   androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException:
+Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(1, null, null, video/avc, avc1.640828, -1, null, [1920, 1080,
+24.0, ColorInfo(BT709, Limited range, SDR SMPTE 170M, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/MediaCodecVideoRenderer( 4274):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/MediaCodecVideoRenderer( 4274):       at android.os.Looper.loop(Looper.java:223)
+E/MediaCodecVideoRenderer( 4274):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/MediaCodecVideoRenderer( 4274):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/MediaCodecVideoRenderer( 4274):       at android.media.MediaCodec.native_start(Native Method)
+E/MediaCodecVideoRenderer( 4274):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/MediaCodecVideoRenderer( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/MediaCodecVideoRenderer( 4274):       ... 11 more
+E/ExoPlayerImplInternal( 4274): Playback error
+E/ExoPlayerImplInternal( 4274):   androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(1, null, null, video/avc, avc1.640828, -1, null, [1920, 1080, 24.0, ColorInfo(BT709, Limited range, SDR SMPTE 170M, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:640)
+E/ExoPlayerImplInternal( 4274):       at android.os.Handler.dispatchMessage(Handler.java:102)
+E/ExoPlayerImplInternal( 4274):       at android.os.Looper.loop(Looper.java:223)
+E/ExoPlayerImplInternal( 4274):       at android.os.HandlerThread.run(HandlerThread.java:67)
+E/ExoPlayerImplInternal( 4274):   Caused by: androidx.media3.exoplayer.mediacodec.MediaCodecRenderer$DecoderInitializationException: Decoder init failed: OMX.amlogic.avc.decoder.awesome2, Format(1, null, null, video/avc, avc1.640828, -1, null, [1920, 1080, 24.0, ColorInfo(BT709, Limited range, SDR SMPTE 170M, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/ExoPlayerImplInternal( 4274):       ... 3 more
+0, 1080, 24.0, ColorInfo(BT709, Limited range, SDR SMPTE 170M, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+0, 1080, 24.0, ColorInfo(BT709, Limited range, SDR SMPTE 170M, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+0, 1080, 24.0, ColorInfo(BT709, Limited range, SDR SMPTE 170M, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+0, 1080, 24.0, ColorInfo(BT709, Limited range, SDR SMPTE 170M, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+0, 1080, 24.0, ColorInfo(BT709, Limited range, SDR SMPTE 170M, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+0, 1080, 24.0, ColorInfo(BT709, Limited range, SDR SMPTE 170M, false, 8bit Luma, 8bit Chroma)], [-1, -1])
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1144)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecOrBypass(MediaCodecRenderer.java:588)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.onInputFormatChanged(MediaCodecRenderer.java:1602)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.onInputFormatChanged(MediaCodecVideoRenderer.java:1182)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.readSourceOmittingSampleData(MediaCodecRenderer.java:1042)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.render(MediaCodecRenderer.java:860)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.video.MediaCodecVideoRenderer.render(MediaCodecVideoRenderer.java:1018)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.doSomeWork(ExoPlayerImplInternal.java:1136)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.ExoPlayerImplInternal.handleMessage(ExoPlayerImplInternal.java:561)
+E/ExoPlayerImplInternal( 4274):       ... 3 more
+E/ExoPlayerImplInternal( 4274):   Caused by: android.media.MediaCodec$CodecException: start failed
+E/ExoPlayerImplInternal( 4274):       at android.media.MediaCodec.native_start(Native Method)
+E/ExoPlayerImplInternal( 4274):       at android.media.MediaCodec.start(MediaCodec.java:2235)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter$Factory.createAdapter(SynchronousMediaCodecAdapter.java:60)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory.createAdapter(DefaultMediaCodecAdapterFactory.java:139)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.initCodec(MediaCodecRenderer.java:1225)
+E/ExoPlayerImplInternal( 4274):       at androidx.media3.exoplayer.mediacodec.MediaCodecRenderer.maybeInitCodecWithFallback(MediaCodecRenderer.java:1137)
+E/ExoPlayerImplInternal( 4274):       ... 11 more
+I/flutter ( 4274): Error initializing video: PlatformException(VideoError, Video player had error androidx.media3.exoplayer.ExoPlaybackException: MediaCodecVideoRenderer error, index=0, format=Format(1, null, null, video/avc, avc1.640828, -1, null, [1920, 1080, 24.0, ColorInfo(BT709, Limited range, SDR SMPTE 170M, false, 8bit Luma, 8bit Chroma)], [-1, -1]), format_supported=YES, null, null)
+
+E/flutter ( 4274): [ERROR:flutter/shell/common/shell.cc(115)] Dart Error: Can't load Kernel binary: Invalid kernel binary: Indicated size is invalid.
+E/flutter ( 4274): [ERROR:flutter/runtime/dart_isolate.cc(147)] Could not prepare isolate.
+E/flutter ( 4274): [ERROR:flutter/runtime/runtime_controller.cc(549)] Could not create root isolate.
+Performing hot restart...
+Restarted application in 7,549ms.
+Application finished.
+hot restart failed to complete: _flutter.runInView: (-32000) Could not run configuration in engine.
+#0      new _OutstandingRequest (package:vm_service/src/vm_service.dart:265:34)
+#1      VmService._call.<anonymous closure> (package:vm_service/src/vm_service.dart:1921:25)
+#2      VmService._call (package:vm_service/src/vm_service.dart:1933:8)
+#3      VmService.callServiceExtension (package:vm_service/src/vm_service.dart:1872:14)
+#4      VmService.callMethod (package:vm_service/src/vm_service.dart:1855:12)
+#5      FlutterVmService.callMethodWrapper (package:flutter_tools/src/vmservice.dart:516:28)
+#6      FlutterVmService.runInView (package:flutter_tools/src/vmservice.dart:620:11)
+<asynchronous suspension>
+#7      Future.wait.<anonymous closure> (dart:async/future.dart:520:21)
+<asynchronous suspension>
+#8      HotRunner._launchInView (package:flutter_tools/src/run_hot.dart:583:5)
+<asynchronous suspension>
+#9      Future.wait.<anonymous closure> (dart:async/future.dart:520:21)
+<asynchronous suspension>
+#10     HotRunner._launchFromDevFS (package:flutter_tools/src/run_hot.dart:603:5)
+<asynchronous suspension>
+#11     HotRunner._restartFromSources (package:flutter_tools/src/run_hot.dart:704:5)
+<asynchronous suspension>
+#12     HotRunner._fullRestartHelper (package:flutter_tools/src/run_hot.dart:835:16)
+<asynchronous suspension>
+#13     HotRunner.restart (package:flutter_tools/src/run_hot.dart:771:38)
+<asynchronous suspension>
+#14     TerminalHandler._commonTerminalInputHandler (package:flutter_tools/src/resident_runner.dart:1746:40)
+<asynchronous suspension>
+#15     TerminalHandler.processTerminalInput (package:flutter_tools/src/resident_runner.dart:1786:7)
+<asynchronous suspension>
+
+
+
