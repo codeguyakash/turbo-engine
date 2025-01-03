@@ -1,23 +1,16 @@
 plugins {
     id "com.android.application"
     id "kotlin-android"
-    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
-    id "dev.flutter.flutter-gradle-plugin"
+    id "dev.flutter.flutter-gradle-plugin" // Flutter Gradle Plugin
 }
 
 android {
     namespace = "com.example.android_tv_app"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    // compileSdk = flutter.compileSdkVersion
+    // ndkVersion = flutter.ndkVersion
+    compileSdk 34
+    // Specify compileSdk directly; remove redundant flutter.compileSdkVersion
 
-    // compileOptions {
-    //     sourceCompatibility = JavaVersion.VERSION_1_8
-    //     targetCompatibility = JavaVersion.VERSION_1_8
-    // }
-
-    // kotlinOptions {
-    //     jvmTarget = JavaVersion.VERSION_1_8
-    // }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
@@ -26,27 +19,31 @@ android {
         jvmTarget = "17"
     }
 
-
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.android_tv_app"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        minSdk 21 // Replace with `flutter.minSdkVersion` if dynamically set
+        targetSdk 33 // Replace with `flutter.targetSdkVersion` if dynamically set
+        versionCode 1 // Replace with `flutter.versionCode` if dynamically set
+        versionName "1.0" // Replace with `flutter.versionName` if dynamically set
     }
 
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.debug
+            signingConfig signingConfigs.debug // Use debug signing for now
+            minifyEnabled false // Prevent code obfuscation during debug/release builds
+            shrinkResources false // Avoid resource stripping for development
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.media3:media3-exoplayer:1.1.1'
+    implementation 'androidx.media3:media3-ui:1.1.1'
+
 }
